@@ -1,5 +1,5 @@
 body {
-    background: #000;
+    /* background: #000; */
 }
 
 #nav {
@@ -7,7 +7,9 @@ body {
     grid-template-columns: 30% 50% 20%;
     width: 800px;
     /* background: #333; */
-    margin: 100px auto;
+    margin: 35px auto;
+    /* 定位：固定 */
+    position: fixed;
 }
 
 #link {
@@ -27,4 +29,10 @@ a {
 
 a:hover {
     color: #CDBA69;
+}
+
+#banner {
+    background-image: url(./img/banner.jpg);
+    width: 100%;
+    height: 1280px;
 }
