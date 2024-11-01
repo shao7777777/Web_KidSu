@@ -9,30 +9,31 @@
 </head>
 
 <body>
-    <div id="nav">
-        <div id="logo">
-            <img src="./img/logo.png" alt="渴不渴以 LOGO">
-        </div>
-        <div id="link">
-            <a href="" class="link">連結A</a>
-            <a href="" class="link">連結B</a>
-            <a href="" class="link">連結C</a>
-        </div>
-        <div id="socail">
-            <a href="" class="social">
-                <img src="./img/facebook.png" alt="FB">
-            </a>
-            <a href="" class="social">
-                <img src="./img/instagram.png" alt="IG">
-            </a>
-        </div>
-    </div>
+    <nav>
+        <div id="nav">
+             <div id="logo">
+                <img src="./img/logo.png" alt="渴不渴以 LOGO">
+             </div>
+            <div id="link">
+                <a href="#title-news" class="link">最新消息</a>
+                <a href="#title-content" class="link">推薦飲料</a>
+                <a href="#title-idea" class="link">經營理念</a>
+            </div>
+            <div id="socail">
+                <a href="" class="social">
+                    <img src="./img/facebook.png" alt="FB">
+                </a>
+                <a href="" class="social">
+                    <img src="./img/instagram.png" alt="IG">
+                </a>
+             </div>
+         </div>
+    </nav>
 
     <div id="banner"></div>
-
+    
     <section class="content">
-        <h1>標題</h1>
-
+        <h1 id="title-news">最新消息</h1>
         <!-- #news>(.card>h4{優惠資訊}+h2{最新消息標題}+p>lorem^img)*3 -->
         <div id="news">
             <div class="card">
@@ -66,9 +67,9 @@
     </section>
 
     <section class="content">
-        <h1>標題</h1>
+        <h1 id="title-content">推薦飲料</h1>
         <div id="product">
-            <img src="../241101/img/product_drink.png" alt="飲料飲品 夏天飲料">
+            <img src="./241101/img/product_drink.png" alt="飲料飲品 夏天飲料">
             <div id="info">
                 <h2>夏日桑葚冰茶</h2>
                 <h6>Summer Mulberry Tea</h6>
@@ -76,11 +77,23 @@
             </div>
         </div>
     </section>
-
+    
     <section class="content">
-        <h1>標題</h1>
+        <h1 id="title-idea">經營理念</h1>
+        <div id="idea">
+            <div id="idea-pic">
+                <img src="./241101/img/idea.png" alt="經營理念 茶葉">
+            </div>
+            <div id="idea-content">
+                唯有按部就班，才能成就「好茶｣。<br>
+                七十二小時慢火熬煮。<br>
+                三十道工序手工打造。<br>
+                <a href="">閱讀更多</a>
+            </div>
+        </div>
     </section>
-
 </body>
-
+<footer>
+    ©2024 - 2025 渴不渴以 All right reserved.
+</footer>
 </html>
